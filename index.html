@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shiv Shakti Flower Decoration — Vibrant Event & Wedding Decor (Sagar, MP)</title>
+  <meta name="description" content="Shiv Shakti Flower Decoration — premium wedding, birthday, anniversary & puja decoration services in Sagar, MP. Rentals & full-service event decor." />
+  <meta name="keywords" content="wedding decoration Sagar, event decoration Sagar, stage decoration, flower decoration, birthday decor" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Shiv Shakti Flower Decoration" />
+  <meta property="og:description" content="Premium wedding & event decoration in Sagar, MP — vibrant, reliable and custom themes." />
+  <meta property="og:image" content="banner.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <!-- Preload font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* ---------- DESIGN TOKENS ---------- */
+    :root{
+      --max-w:1100px;
+      --primary:#ff2f93;    /* vivid pink */
+      --accent:#ffb6d9;
+      --gold:#f6c85f;
+      --bg:#fff7fb;
+      --card:#ffffff;
+      --muted:#6b6b6b;
+      --shadow: 0 14px 40px rgba(11,10,17,0.08);
+      --radius:14px;
+      --glass: rgba(255,255,255,0.7);
+      --ease: cubic-bezier(.2,.9,.2,1);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{font-family:'Poppins',sans-serif;margin:0;background:linear-gradient(180deg,var(--bg),#ffffff);color:#111;line-height:1.45;-webkit-font-smoothing:antialiased}
+    a{color:inherit}
+
+    /* ---------- HEADER ---------- */
+    header{position:sticky;top:0;z-index:1200;background:linear-gradient(90deg,var(--primary),#ff78b7);padding:12px 20px;display:flex;align-items:center;justify-content:space-between;box-shadow:var(--shadow)}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(180deg,#fff3fb,rgba(255,255,255,0.08));display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--primary);font-size:18px}
+    .brand h1{margin:0;color:#fff;font-size:18px}
+    nav{display:flex;gap:12px;align-items:center}
+    nav a{color:rgba(255,255,255,0.95);text-decoration:none;padding:8px 10px;border-radius:8px;font-weight:600}
+    nav a.active{background:rgba(255,255,255,0.08)}
+    .cta{background:#fff;color:var(--primary);padding:8px 12px;border-radius:10px;font-weight:800;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,0.06)}
+
+    /* ---------- HERO ---------- */
+    .container{max-width:var(--max-w);margin:24px auto;padding:0 18px}
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;align-items:center}
+    .hero-card{background:linear-gradient(180deg,var(--card),#fff);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:grid}
+    .hero-img{width:100%;height:520px;object-fit:cover;display:block}
+    .hero-inner{padding:26px;display:flex;flex-direction:column;gap:12px}
+    .kicker{display:inline-block;background:linear-gradient(90deg,var(--accent),#fff);padding:6px 10px;border-radius:999px;font-weight:700;color:var(--primary);font-size:13px}
+    .hero-title{font-size:30px;color:var(--primary);margin:4px 0 6px}
+    .lead{color:var(--muted);font-size:1.03rem}
+    .hero-cta{display:flex;gap:12px;margin-top:10px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:12px 16px;border-radius:12px;font-weight:800;text-decoration:none;cursor:pointer}
+    .btn-primary{background:linear-gradient(90deg,var(--primary),#ff8acb);color:#fff;box-shadow:0 12px 30px rgba(255,47,147,0.12);transition:transform .18s var(--ease)}
+    .btn-primary:hover{transform:translateY(-4px)}
+    .btn-ghost{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--primary)}
+
+    /* ---------- SECTIONS ---------- */
+    section{padding:38px 0}
+    h2{color:var(--primary);text-align:center;margin:0 0 18px;font-size:22px}
+    .cols{display:grid;gap:20px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:var(--shadow)}
+
+    /* ABOUT */
+    .about{display:grid;grid-template-columns:1fr 360px;gap:20px;align-items:start}
+
+    /* SERVICES */
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .service{padding:18px;border-radius:12px;background:linear-gradient(180deg,#fff,#fff);text-align:center;transition:transform .22s var(--ease),box-shadow .22s var(--ease)}
+    .service:hover{transform:translateY(-8px);box-shadow:0 20px 40px rgba(11,10,17,0.08)}
+    .service h3{color:var(--primary);margin-bottom:6px}
+    .service p{color:var(--muted);font-size:0.96rem}
+
+    /* PACKAGES */
+    .packages{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+    .pkg{padding:18px;text-align:center;border-radius:12px;background:linear-gradient(180deg,#fff,#fff);box-shadow:var(--shadow)}
+    .pkg .price{font-weight:800;color:var(--gold);font-size:18px;margin-top:10px}
+
+    /* THEMES */
+    .themes{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+    .theme{padding:12px;border-radius:10px;text-align:center;box-shadow:var(--shadow)}
+    .theme img{width:100%;height:110px;object-fit:cover;border-radius:8px;margin-bottom:8px}
+
+    /* STATS & TESTIMONIALS */
+    .stats{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+    .stat{min-width:140px;padding:14px;border-radius:12px;background:linear-gradient(180deg,#fff,#fff);text-align:center;box-shadow:var(--shadow)}
+    .stat .val{font-size:22px;color:var(--primary);font-weight:800}
+    .testimonials{position:relative;overflow:hidden}
+    .test-list{display:flex;transition:transform .6s ease}
+    .test{min-width:100%;padding:18px;text-align:center;background:var(--card);border-radius:12px;box-shadow:var(--shadow)}
+
+    /* GALLERY */
+    .gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+    .gallery-grid img{width:100%;height:160px;object-fit:cover;border-radius:10px;cursor:pointer;transition:transform .18s}
+    .gallery-grid img:hover{transform:scale(1.04)}
+
+    /* LIGHTBOX */
+    .lightbox{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.78);z-index:2200;opacity:0;pointer-events:none;transition:opacity .2s}
+    .lightbox.open{opacity:1;pointer-events:all}
+    .lightbox img{max-width:92%;max-height:86%;border-radius:12px;box-shadow:0 20px 50px rgba(0,0,0,0.6)}
+
+    /* PAYMENT */
+    .payment{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+    .payment .qr{width:220px;max-width:45%}
+    .payment .qr img{width:100%;border-radius:10px}
+    .upi{flex:1;min-width:220px}
+    .upi .id{font-weight:900;margin-top:6px;letter-spacing:0.3px}
+
+    /* CONTACT */
+    .contact-grid{display:grid;grid-template-columns:1fr 420px;gap:16px}
+    .contact-card{padding:18px;border-radius:12px;background:var(--card);box-shadow:var(--shadow)}
+    label{display:block;font-size:13px;margin-bottom:6px;color:#333;font-weight:600}
+    input,select,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #eee;margin-bottom:12px;font-size:0.98rem}
+    .submit-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+
+    /* FLOAT BUTTONS */
+    .float-buttons{position:fixed;right:18px;bottom:18px;display:flex;flex-direction:column;gap:10px;z-index:2100}
+    .float-buttons a{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(90deg,var(--primary),#ff85c2);color:#fff;font-size:20px}
+
+    footer{padding:28px 18px;text-align:center;color:var(--muted);font-size:14px}
+
+    /* RESPONSIVE */
+    @media(max-width:1040px){.about{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}}
+    @media(max-width:680px){.hero-img{height:260px}.nav{display:none}.brand h1{font-size:16px}.payment .qr{max-width:100%}}
+  </style>
+
+  <!-- Structured Data (LocalBusiness) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Shiv Shakti Flower Decoration",
+    "image":"banner.jpg",
+    "telephone":"+919399828925",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"Bada Bajar",
+      "addressLocality":"Sagar",
+      "addressRegion":"MP",
+      "postalCode":"",
+      "addressCountry":"IN"
+    },
+    "description":"Vibrant wedding, birthday, anniversary and puja decoration services in Sagar, MP.",
+    "url":"."
+  }
+  </script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header role="banner">
+    <div style="display:flex;align-items:center;gap:12px">
+      <div class="logo" aria-hidden="true">SS</div>
+      <div>
+        <h1 style="margin:0;color:#fff;font-size:18px">Shiv Shakti Flower Decoration</h1>
+        <div style="font-size:12px;color:rgba(255,255,255,0.9)">Bada Bajar, Sagar, MP</div>
+      </div>
+    </div>
+
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#packages">Packages</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a class="cta" href="https://wa.me/919399828925" target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <div class="container" id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-card" role="region" aria-label="Hero">
+        <img class="hero-img" src="banner.jpg" alt="Shiv Shakti Flower Decoration banner" loading="lazy">
+        <div class="hero-inner">
+          <span class="kicker">Premium Decor</span>
+          <h2 id="hero-title" class="hero-title">Beautiful Designs for Every Occasion</h2>
+          <p class="lead">Vibrant & festive wedding, birthday, anniversary and puja decorations — rentals & full-service setups across Sagar, MP.</p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Book Your Event</a>
+            <a href="price-list.pdf" class="btn btn-ghost" download>📄 View Price Packages</a>
+            <a href="wedding.html" class="btn btn-ghost">💍 Wedding Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <main class="container" role="main" aria-live="polite">
+    <!-- ABOUT -->
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About Shiv Shakti</h2>
+      <div class="about">
+        <div class="card">
+          <p style="font-weight:700;margin-bottom:8px">Family-run event decoration business in Sagar, MP — handcrafted, punctual, and creative.</p>
+          <p>We combine seasonal flowers, premium props, and experienced installers to create stages, mandaps, balloon themes, and puja decorations that leave a lasting impression.</p>
+          <p style="margin-top:10px;font-weight:700">Phone: <a href="tel:+919399828925">+91 93998 28925</a></p>
+        </div>
+        <aside class="card" aria-labelledby="how-title">
+          <h3 id="how-title" style="color:var(--primary);margin-top:0">How We Work</h3>
+          <ol style="color:var(--muted);padding-left:18px">
+            <li><strong>Consult:</strong> Understand your idea, venue & budget.</li>
+            <li><strong>Design:</strong> Suggest themes, moodboard & estimate.</li>
+            <li><strong>Decorate:</strong> Timely setup, coordinated teardown, and follow-up.</li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" aria-labelledby="services-title">
+      <h2 id="services-title">Services</h2>
+      <div class="services">
+        <div class="service card"><h3><a href="wedding.html">Wedding Decoration</a></h3><p>Stage & mandap, floral arches, seating decor, lighting, & full coordination.</p></div>
+        <div class="service card"><h3><a href="birthday.html">Birthday Celebration</a></h3><p>Theme backdrops, balloons, photo corners, and cake table setups.</p></div>
+        <div class="service card"><h3><a href="anniversary.html">Anniversary Decoration</a></h3><p>Romantic themes, floral paths & intimate lighting.</p></div>
+        <div class="service card"><h3><a href="ganeshpuja.html">Ganesh Puja</a></h3><p>Traditional mandap, floral torans, and altar decoration.</p></div>
+        <div class="service card"><h3>Event Rentals</h3><p>Pedestals, arches, props, lights, and flower arrangements on rent.</p></div>
+        <div class="service card"><h3>Corporate Events</h3><p>Brand-friendly staging, floral branding, and banquet setup.</p></div>
+      </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section id="packages" aria-labelledby="packages-title">
+      <h2 id="packages-title">Packages & Pricing</h2>
+      <div class="packages">
+        <div class="pkg card"><h3>Basic</h3><div class="price">₹2,999</div><p>Balloon arch, backdrop & string lights — small events.</p><div style="margin-top:10px"><button class="btn btn-primary" onclick="openWhatsApp('Basic Package')">Book Basic</button></div></div>
+        <div class="pkg card"><h3>Premium</h3><div class="price">₹6,999</div><p>Floral stage, lighting, seating decor — medium events.</p><div style="margin-top:10px"><button class="btn btn-primary" onclick="openWhatsApp('Premium Package')">Book Premium</button></div></div>
+        <div class="pkg card"><h3>Royal</h3><div class="price">₹12,999+</div><p>Full-theme decor, mandap & premium flowers — large events.</p><div style="margin-top:10px"><button class="btn btn-primary" onclick="openWhatsApp('Royal Package')">Book Royal</button></div></div>
+      </div>
+    </section>
+
+    <!-- THEMES -->
+    <section id="themes" aria-labelledby="themes-title">
+      <h2 id="themes-title">Themes We Offer</h2>
+      <div class="themes">
+        <div class="theme card"><img src="gallery1.jpg" alt="Wedding theme" loading="lazy"><div>Wedding Theme</div></div>
+        <div class="theme card"><img src="gallery2.jpg" alt="Birthday theme" loading="lazy"><div>Birthday Theme</div></div>
+        <div class="theme card"><img src="gallery3.jpg" alt="Anniversary theme" loading="lazy"><div>Anniversary Theme</div></div>
+        <div class="theme card"><img src="gallery4.jpg" alt="Ganesh puja theme" loading="lazy"><div>Ganesh Puja</div></div>
+        <div class="theme card"><img src="gallery5.jpg" alt="Corporate theme" loading="lazy"><div>Corporate</div></div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section id="stats" aria-labelledby="stats-title">
+      <h2 id="stats-title">Our Experience</h2>
+      <div class="stats">
+        <div class="stat card"><div class="val num" data-target="250">0</div><div>Events</div></div>
+        <div class="stat card"><div class="val num" data-target="120">0</div><div>Happy Clients</div></div>
+        <div class="stat card"><div class="val num" data-target="10">0</div><div>Years</div></div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" aria-labelledby="testimonials-title">
+      <h2 id="testimonials-title">What Clients Say</h2>
+      <div class="testimonials card" aria-live="polite">
+        <div class="test-list" id="testList">
+          <div class="test"><p>“They made our wedding day beautiful and stress-free.”</p><p style="font-weight:700;margin-top:8px">— Neha & Rahul</p></div>
+          <div class="test"><p>“Excellent service and on-time setup. Highly recommended.”</p><p style="font-weight:700;margin-top:8px">— Priya</p></div>
+          <div class="test"><p>“Creative themes and friendly staff — great value.”</p><p style="font-weight:700;margin-top:8px">— Amit</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Gallery</h2>
+      <div class="gallery-grid">
+        <img src="gallery1.jpg" alt="Decor 1" loading="lazy" data-full="gallery1.jpg">
+        <img src="gallery2.jpg" alt="Decor 2" loading="lazy" data-full="gallery2.jpg">
+        <img src="gallery3.jpg" alt="Decor 3" loading="lazy" data-full="gallery3.jpg">
+        <img src="gallery4.jpg" alt="Decor 4" loading="lazy" data-full="gallery4.jpg">
+        <img src="gallery5.jpg" alt="Decor 5" loading="lazy" data-full="gallery5.jpg">
+        <img src="gallery6.jpg" alt="Decor 6" loading="lazy" data-full="gallery6.jpg">
+      </div>
+    </section>
+
+    <!-- PAYMENT -->
+    <section id="payment" aria-labelledby="payment-title">
+      <h2 id="payment-title">Advance Payment (UPI)</h2>
+      <div class="payment card">
+        <div class="qr">
+          <img src="upi_qr.jpg" alt="UPI QR code" loading="lazy">
+        </div>
+        <div class="upi">
+          <h3 style="margin:0;color:var(--primary)">Pay via UPI</h3>
+          <div class="id">UPI ID: <span class="upi-id">shivshaktiflora@upi</span></div>
+          <p class="note" style="color:var(--muted)">After payment, kindly send the screenshot on WhatsApp for confirmation. We will reserve your date once advance is verified.</p>
+          <div style="margin-top:10px;display:flex;gap:10px;flex-wrap:wrap">
+            <a class="btn btn-primary" href="upi://pay?pa=shivshaktiflora@upi&pn=Shiv%20Shakti%20Flower%20Decoration&cu=INR" target="_blank" rel="noopener">Pay via UPI</a>
+            <a class="btn btn-ghost" href="https://wa.me/919399828925?text=I%20have%20made%20the%20payment%20for%20my%20event" target="_blank" rel="noopener">Send Screenshot on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+      <p style="font-size:13px;color:var(--muted);margin-top:8px">Note: Payment happens through your UPI app. The website only provides links and information — we don't process payments.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Send Inquiry / Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-card card">
+          <h3 style="margin-top:0">Send Us Your Event Details</h3>
+          <p class="note" style="color:var(--muted)">You can send enquiry via email form or message on WhatsApp for instant replies.</p>
+
+          <!-- FORM: change action to your Formspree endpoint -->
+          <form id="inquiryForm" action="https://formspree.io/f/placeholder" method="POST" novalidate>
+            <!-- Honeypot (anti-spam) -->
+            <input type="text" name="_gotcha" style="display:none">
+
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required aria-required="true" placeholder="Your full name">
+
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" required placeholder="Phone number">
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="Your email">
+
+            <label for="event_type">Event Type</label>
+            <select id="event_type" name="event_type" required>
+              <option value="">Select event type</option>
+              <option>Wedding</option>
+              <option>Birthday</option>
+              <option>Anniversary</option>
+              <option>Ganesh Puja</option>
+              <option>Corporate</option>
+            </select>
+
+            <label for="event_date">Event Date</label>
+            <input id="event_date" name="event_date" type="date" required>
+
+            <label for="message">Tell us about your event</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Venue, guest count, any special requests"></textarea>
+
+            <!-- Optional hidden data -->
+            <input type="hidden" name="source" value="Website - Shiv Shakti">
+
+            <div class="submit-row">
+              <button type="submit" class="btn btn-primary">Send Inquiry</button>
+              <a class
